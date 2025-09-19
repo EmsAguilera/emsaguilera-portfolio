@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import type { Dictionary } from '@/types/content';
+import { log } from 'console';
 
 type ContactFormProps = {
   content: Dictionary['contact']['form'];
@@ -30,6 +31,7 @@ export const ContactForm = ({ content }: ContactFormProps) => {
         throw new Error('Network response was not ok.');
       }
     } catch (error) {
+      console.log(error);
       setStatus(content.status.error);
     }
   };
