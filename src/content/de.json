@@ -1,0 +1,382 @@
+{
+  "navbar": {
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin Emilio",
+    "subtitle": "Ein Softwareentwickler mit einer Leidenschaft für die Entwicklung zielgerichteter digitaler Erlebnisse, die Benutzer verbinden, Probleme lösen und einen Unterschied machen.",
+    "button": "Kontakt",
+    "button2": "Meine Erfahrung"
+  },
+  "about": {
+    "about_me": {
+      "title": "Über mich",
+      "subheading": "Entwickler, AIESECer, Fotograf & lebenslang Lernender",
+      "body": [
+        "Hallo, ich bin Emilio – ein Software-Ingenieur mit internationaler Erfahrung in der Full-Stack-Entwicklung und einer Leidenschaft für die Schaffung von Technologien, die einen positiven Einfluss haben.",
+        "💻 Mein beruflicher Hintergrund umfasst die Entwicklung von Web- und Mobilanwendungen mit Technologien wie TypeScript, Node.js, Vue, React, .NET und SQL-Datenbanken. Ich habe sowohl in Startups als auch in strukturierten Umgebungen gearbeitet und die Implementierung von Lösungen geleitet, die die Effizienz und Benutzererfahrung verbessert haben – einschließlich Barrierefreiheitsplattformen und Echtzeit-Buchungssystemen. Ich habe auch an Projekten mit sozialer und ökologischer Wirkung mitgewirkt, wie z. B. Plattformen für gemeinnützige Organisationen und die Entwicklung eines Virtual-Reality-Simulators.",
+        "🌍 Über mein technisches Profil hinaus bin ich in multikulturellen Umgebungen durch meine Rollen bei AIESEC Deutschland gewachsen, wo ich internationale Teams geleitet habe und derzeit den nationalen Vorstand als Produktberater unterstütze. Diese Erfahrungen haben meine Kommunikations-, Führungs- und Kooperationsfähigkeiten gestärkt – die ich in jedes Projekt einbringe.",
+        "📸 Seit meiner Jugend begeistere ich mich sowohl für Technologie als auch für Fotografie. Die Fotografie hat mich gelehrt, die Welt durch eine Design-Linse zu sehen – eine Perspektive, die jetzt mein Interesse an der Gestaltung benutzerzentrierter Frontends, immersiver Spielerlebnisse und gut gestalteter digitaler Produkte antreibt."
+      ],
+      "image": { "src": "/images/about.jpg", "alt": "Beschreibung des Bildes 1" },
+      "button": "Meine Geschichte lesen"
+    },
+    "education_section": {
+      "title": "Ausbildung & Zertifikate",
+      "entries": [
+        {
+          "institution": "Sprachakademie Karlsruhe",
+          "degree": "B1-Deutschzertifikat",
+          "date": "2025",
+          "description": "Schwerpunkte auf den Prinzipien des Software-Engineerings, fortgeschrittenen Algorithmen und Datenbankmanagement. Abschluss mit Auszeichnung.",
+          "certificates": [
+            { "text": "Zertifikat (DE)", "url": "/certs/Zertifikat_B1.pdf" }
+          ]
+        },
+        {
+          "institution": "Sprachakademie Karlsruhe",
+          "degree": "Integrationskurs",
+          "date": "2025",
+          "description": "Schwerpunkte auf den Prinzipien des Software-Engineerings, fortgeschrittenen Algorithmen und Datenbankmanagement. Abschluss mit Auszeichnung.",
+          "certificates": [
+            { "text": "Zertifikat (DE)", "url": "/certs/Integrationskurs.pdf" }
+          ]
+        },
+        {
+          "institution": "Volkshochschule Main-Taunus-Kreis",
+          "degree": "A2-Deutschzertifikat",
+          "date": "2024",
+          "description": "Schwerpunkte auf den Prinzipien des Software-Engineerings, fortgeschrittenen Algorithmen und Datenbankmanagement. Abschluss mit Auszeichnung.",
+          "certificates": [
+            { "text": "Zertifikat (DE)", "url": "/certs/A2_Zertifikat.pdf" }
+          ]
+        },
+        {
+          "institution": "Tecnológico de Monterrey Campus Querétaro",
+          "degree": "Bachelor of Science in Informatik",
+          "date": "2018 - 2023",
+          "description": "Schwerpunkte auf den Prinzipien des Software-Engineerings, fortgeschrittenen Algorithmen und Datenbankmanagement. Abschluss mit Auszeichnung.",
+          "certificates": [
+            { "text": "Zeugnis (ES)", "url": "/certs/Bachelor_ES.pdf" },
+            { "text": "Zeugnis (DE)", "url": "/certs/Bachelor_DE.pdf" },
+            { "text": "Notenspiegel (ES)", "url": "/certs/Transcript_ES.pdf" },
+            { "text": "Notenspiegel (EN)", "url": "/certs/Transcript_EN.pdf" },
+            { "text": "ANABIN (DE)", "url": "/certs/Anabin_Datenbank.pdf" }
+          ]
+        },
+        {
+          "institution": "Hochschule Karlsruhe – Technik und Wirtschaft",
+          "degree": "Auslandssemester in Deutschland",
+          "date": "2021 - 2022",
+          "description": "Teilnahme an Workshops zu fortgeschrittenen Next.js-Funktionen, einschließlich Server-Komponenten und Leistungsoptimierung.",
+          "certificates": [
+            { "text": "Notenspiegel (DE)", "url": "/certs/Transcript_HKA.pdf" }
+          ]
+        },
+        {
+          "institution": "CISCO",
+          "degree": "---",
+          "date": "2021",
+          "description": "Teilnahme an Workshops zu fortgeschrittenen Next.js-Funktionen, einschließlich Server-Komponenten und Leistungsoptimierung.",
+          "certificates": [
+            { "text": "Zertifikat ansehen", "url": "/certs/nextjs_conf.pdf" }
+          ]
+        },
+        {
+          "institution": "Tecnológico de Monterrey Campus Irapuato",
+          "degree": "Abiturzeugnis",
+          "date": "2015 - 2018",
+          "description": "Ein intensives 3-monatiges Programm, das den MERN-Stack (MongoDB, Express, React, Node.js) und moderne Bereitstellungspraktiken abdeckt.",
+          "certificates": [
+            { "text": "Zeugnis (ES)", "url": "/certs/HighSchool_Diploma_ES.pdf" },
+            { "text": "Zeugnis (DE)", "url": "/certs/HighSchool_Diploma_DE.pdf" }
+          ]
+        }
+      ]
+    },
+    "logo_cloud": {
+      "title": "Verbunden mit",
+      "logos": [
+        { "name": "Baden-Württemberg", "src": "/images/logos/tec.png" },
+        { "name": "Consileon", "src": "/images/logos/HKA.png" },
+        { "name": "Daimler", "src": "/images/logos/Cisco.png" },
+        { "name": "Dehner", "src": "/images/logos/gast.jpg" },
+        { "name": "DGB", "src": "/images/logos/Bundesamt.png" },
+        { "name": "DIPF", "src": "/images/logos/Sprachakademie.png" },
+        { "name": "Galileo", "src": "/images/logos/TOEFL.jpg" }
+      ]
+    },
+    "skills_section": {
+      "title": "Meine Fähigkeiten",
+      "skills": [
+        {
+          "category": "Programmiersprachen",
+          "list": ["JavaScript/Typescript", "Python", "SQL", "C", "C++", "C#", "Java", "PHP", "GO"]
+        },
+        {
+          "category": "Frontend",
+          "list": ["React", "Next.js", "Vue.js", "Laravel", "HTML/CSS", "Unity"]
+        },
+        {
+          "category": "Backend",
+          "list": ["Node.js", ".NET", "SQL Databases"]
+        },
+        {
+          "category": "Tools & Methoden",
+          "list": ["Agile / Scrum", "CI/CD Pipelines", "Docker", "Azure DevOps", "Linux", "Git"]
+        },
+        {
+          "category": "Sprachen",
+          "list": ["Spanisch (Muttersprache)", "Englisch (C1)", "Deutsch (B2)"]
+        }
+      ]
+    }
+  },
+  "timeline": {
+    "title": "Mein Weg",
+    "events": [
+      {
+        "date": "Aug 2015 - Mai 2018",
+        "title": "Abiturzeugnis",
+        "description": "Studium am Tecnológico de Monterrey mit einem Notendurchschnitt von 93,69 (entspricht 1,6 in Deutschland) und einem Diplom mit ehrenvoller Erwähnung als einer der besten 5% der Klasse.",
+        "category": "education"
+      },
+      {
+        "date": "2015 - 2023",
+        "title": "Bildkoordinator",
+        "description": "Erste Berufserfahrung in einem Feriencamp für Kinder jeden Sommer gesammelt.",
+        "category": "work"
+      },
+      {
+        "date": "Aug 2018 - Jun 2023",
+        "title": "Bachelor of Science in Informatik",
+        "description": "Studium am Tecnológico de Monterrey mit Kursen in Software-Engineering, Software-Design und -Architektur sowie Workshops in Webanwendungsentwicklung, Netzwerkverbindungen und Datenbanken.",
+        "category": "education"
+      },
+      {
+        "date": "Sep 2021 - Feb 2022",
+        "title": "Auslandssemester in Deutschland",
+        "description": "Ein Auslandssemester an der Hochschule Karlsruhe – Technik und Wirtschaft absolviert.",
+        "category": "education"
+      },
+      {
+        "date": "Apr 2022 - Jun 2023",
+        "title": "Full-Stack-Entwickler",
+        "description": "Erste Berufserfahrung als Entwickler bei GUUD Consulting gesammelt, wo ich Full-Stack-Lösungen für das Kundenmanagement entwickelt habe.",
+        "category": "work"
+      },
+      {
+        "date": "Aug 2023 - Jul 2024",
+        "title": "Praktikum als Softwareentwickler",
+        "description": "Einem großartigen Team bei octasys GmbH beigetreten, um die Barrierefreiheits-Monitoring-Plattform des Kunden zu verbessern.",
+        "category": "work"
+      },
+      {
+        "date": "Feb 2024 - Jan 2025",
+        "title": "Vizepräsident für Austauschpraktika-Operationen",
+        "description": "Teil des Vorstands von AIESEC in Karlsruhe, verantwortlich für eines der Hauptoperationsprodukte.",
+        "category": "volunteer"
+      },
+      {
+        "date": "Aug 2024 - Okt 2024",
+        "title": "Junior-Softwareentwickler",
+        "description": "Beförderung bei octasys GmbH in eine Junior-Position, um die Bereitstellung zu optimieren und die Skalierbarkeit der Plattform zu erweitern.",
+        "category": "work"
+      },
+      {
+        "date": "Heute",
+        "title": "Bereit für die nächste Herausforderung!",
+        "description": "Ständig lernend und auf der Suche nach neuen Möglichkeiten zu wachsen und beizutragen.",
+        "category": "milestone"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galerie",
+    "images": [
+      { "src": "/images/1.jpg", "alt": "Teatro Juárez in Guanajuato, Mexiko" },
+      { "src": "/images/2.jpg", "alt": "Weihnachtsmarkt in Berlin, Deutschland" },
+      { "src": "/images/3.jpg", "alt": "Teatro Juárez in Guanajuato, Mexiko" },
+      { "src": "/images/4.jpg", "alt": "Blick auf den Popocatépetl von Cholula, Puebla" },
+      { "src": "/images/5.jpg", "alt": "Weihnachtsmarkt in Berlin, Deutschland" },
+      { "src": "/images/6.jpg", "alt": "Blick auf den Popocatépetl von Cholula, Puebla" },
+      { "src": "/images/7.jpg", "alt": "Blick auf den Popocatépetl von Cholula, Puebla" },
+      { "src": "/images/8.jpg", "alt": "Cempasúchil-Blume" },
+      { "src": "/images/9.jpg", "alt": "Blick auf den Popocatépetl von Cholula, Puebla" },
+      { "src": "/images/10.jpg", "alt": "Deutscher Schäferhund" }
+    ]
+  },
+  "experience": {
+    "title": "Meine Erfahrung",
+    "subheading": "Eine Sammlung meiner beruflichen, akademischen und ehrenamtlichen Arbeit.",
+    "filters": ["Alle", "Beruflich", "Projekte", "Ehrenamt"],
+    "view_details_button": "Details ansehen",
+    "back_button": "Zurück zu allen Erfahrungen",
+    "items": [
+      {
+        "slug": "bewerbungen-projekt",
+        "title": "Automatisiertes Bewerbungssystem",
+        "company": "Persönlich",
+        "date": "Jul 2025",
+        "category": "projects",
+        "image": "/images/bewerbungen.jpg",
+        "summary": "Leistungsstarkes Automatisierungssystem auf Python-Basis.",
+        "details": "Dies ist ein leistungsstarkes, auf Python basierendes Automatisierungssystem, das den Bewerbungsprozess optimiert. Es liest intelligent Jobdaten aus einer Tabelle und verwendet eine generative KI, um bestimmte Abschnitte Ihrer zweisprachigen LaTeX-Lebensläufe und Anschreiben für jede Bewerbung anzupassen. Das Skript generiert automatisch ausgefeilte, ATS-freundliche PDFs, was unzählige Stunden spart und gleichzeitig hochwertige, personalisierte Dokumente für jeden Job erstellt, auf den Sie sich bewerben."
+      },
+      {
+        "slug": "consultant-aiesec",
+        "title": "Berater im nationalen Unterstützungsgremium für internationale Praktikaprogramme",
+        "company": "AIESEC in Deutschland",
+        "date": "Feb 2025 - heute",
+        "category": "volunteering",
+        "image": "/images/logos/AIESEC.png",
+        "summary": "Berater für die Organisation AIESEC in Karlsruhe.",
+        "details": "Beratung und Unterstützung lokaler Vizepräsidenten bei der Umsetzung und Weiterentwicklung internationaler Praktikaprogramme für junge Talente. Teilnahme an strategischer Planung, Prozessoptimierung und Wissensaustausch innerhalb des Netzwerks. Förderung der Zusammenarbeit zwischen lokalen Komitees und dem nationalen Managementteam, um die Qualität und den Ausbau des Programms zu gewährleisten."
+      },
+      {
+        "slug": "junior-developer-octasys",
+        "title": "Junior-Softwareentwickler",
+        "company": "octasys GmbH",
+        "date": "Aug 2024 - Okt 2024",
+        "category": "professional",
+        "image": "/images/octasys.jpg",
+        "summary": "Optimierung der Bereitstellung und Erweiterung der Plattformska­lierbarkeit.",
+        "details": "In dieser Rolle war ich für die Erstellung und Wartung von Azure DevOps CI/CD-Pipelines und den erforderlichen Diensten (z.B. Docker Registry), die Aktualisierung der Softwarearchitektur und die Sicherstellung einer Testumgebung für Tester verantwortlich, wodurch die Release-Frequenz um 25% erhöht wurde. Ich habe 3 neue Mitarbeiter eingearbeitet, um die Plattform von einem einstufigen auf einen mehrinstanzenfähigen Einsatz zu skalieren, sowie Audits, Berichte und die Überwachung der Compliance automatisiert, um die Datengenauigkeit um 95% zu beschleunigen und zu verbessern."
+      },
+      {
+        "slug": "vp-aiesec",
+        "title": "Vizepräsident für internationale Praktikaprogramme",
+        "company": "AIESEC in Karlsruhe",
+        "date": "Feb 2024 - Jan 2025",
+        "category": "volunteering",
+        "image": "/images/logos/AIESEC.png",
+        "summary": "Vizepräsident für ausgehende globale Austauschoperationen für die Organisation AIESEC in Karlsruhe.",
+        "details": "Leitung eines multikulturellen Teams mit 8 Mitgliedern. Strategie, Zeitplanung und Entwicklung internationaler Kooperationen für Betrieb und Marketing."
+      },
+      {
+        "slug": "internship-octasys",
+        "title": "Praktikum als Softwareentwickler",
+        "company": "octasys GmbH",
+        "date": "Aug 2023 - Jul 2024",
+        "category": "professional",
+        "image": "/images/logos/octasys_logo.jpg",
+        "summary": "Verbesserung der Barrierefreiheits-Monitoring-Plattform des Kunden.",
+        "details": "Entwurf und Implementierung neuer Funktionen in Vue.js für das Frontend, .NET C# für das Backend und SQL Server für die Datenbanken, Migration von Altsystemen auf ein automatisiertes Full-Stack-System, wodurch die Betriebseffizienz um 50% gesteigert wurde. Unterstützung bei Softwareproblemen und Durchführung von Code-Reviews in einem internationalen Team zur Behebung kritischer Fehler, was die Arbeitsbelastung des Unternehmens um 90% reduzierte."
+      },
+      {
+        "slug": "developer-guud",
+        "title": "Full-Stack-Entwickler",
+        "company": "GUUD Consulting",
+        "date": "Apr 2022 - Jun 2023",
+        "category": "professional",
+        "image": "/images/logos/guud.png",
+        "summary": "Entwicklung von Full-Stack-Lösungen für das Kundenmanagement.",
+        "details": "Entwicklung eines Vue.js-Admin-Dashboards, integriert mit Node.js + PostgreSQL, das die Terminverwaltung optimierte und Terminkonflikte durch Echtzeit-Kalendersynchronisation um 40% reduzierte. Einführung einer Xamarin-App für Kunden, die die Buchungskonversionen durch Echtzeit-Verfügbarkeitsupdates um 35% steigerte. Erstellung eines React-Projektmanagementsystems, das die Kundenprozesse um 78% beschleunigte, mit einem Node.js-Backend zur Verarbeitung monatlicher Dokumenten-Uploads. Entwicklung einer React-Native-App mit Offline-First-Funktionalität, die den Zugriff auf und die Aktualisierung kritischer Daten ohne Internet ermöglichte und Arbeitsunterbrechungen um 90% reduzierte."
+      },
+      {
+        "slug": "apac-qro",
+        "title": "Managementsystem für die NGO APAC Qro",
+        "company": "Tecnológico de Monterrey",
+        "date": "Feb 2022 - Jun 2022",
+        "category": "projects",
+        "image": "/images/logos/APAC.png",
+        "summary": "Entwicklung einer Full-Stack-Lösung für eine NGO.",
+        "details": "Leitung der Entwicklung einer auf PHP Laravel basierenden Webanwendung zur Reduzierung des Verwaltungsaufwands, wodurch die Workflow-Effizienz abteilungsübergreifend verbessert wurde. Anwendung des CMMI-Prozessmodells zur Verbesserung der Softwarekonsistenz und -wartbarkeit. Zusammenarbeit mit Stakeholdern, um eine benutzerorientierte Funktionalität und die Ausrichtung auf die organisatorischen Ziele sicherzustellen."
+      },
+      {
+        "slug": "vr-bike",
+        "title": "VR-Fahrrad-Projekt",
+        "company": "Tecnológico de Monterrey",
+        "date": "Sep 2021 - Feb 2022",
+        "category": "projects",
+        "image": "/images/VR.png",
+        "summary": "Erstellung einer VR-Fahrradsimulation.",
+        "details": "Erstellung einer VR-Fahrradsimulation in Unity/C#, Integration von Hardware-Sensoren für Echtzeit-Interaktion und Geschwindigkeitssynchronisation. Verfassen einer Forschungsarbeit: „Geschwindigkeitssynchronisation in einem Virtual-Reality-Fahrradsimulator für den Tourismus“ (2023) zur Bewertung der Benutzererfahrung."
+      },
+      {
+        "slug": "mkt-aiesec",
+        "title": "Teamleiter im Marketing",
+        "company": "AIESEC in Karlsruhe",
+        "date": "Aug 2021 - Jan 2022",
+        "category": "volunteering",
+        "image": "/images/logos/AIESEC.png",
+        "summary": "Teamleiter im Marketingteam für die Organisation AIESEC in Karlsruhe.",
+        "details": "Leitung eines Marketingteams zur Entwicklung und Umsetzung von Kampagnen zur Förderung der AIESEC-Programme."
+      },
+      {
+        "slug": "inverdana",
+        "title": "Plattform für eine NGO",
+        "company": "Tecnológico de Monterrey",
+        "date": "Aug 2020 - Dez 2020",
+        "category": "projects",
+        "image": "/images/inverdana.png",
+        "summary": "React-Webplattform.",
+        "details": "Entwurf und Bereitstellung einer React-Webplattform zur Erhöhung der organisatorischen Sichtbarkeit und des Benutzerengagements. Implementierung strukturierter Datenberichte zur Verbesserung der Genauigkeit. Bereitstellung eines maßgeschneiderten digitalen Werkzeugs, das auf die Mission des Kunden und die Bedürfnisse der Stakeholder abgestimmt ist."
+      },
+      {
+        "slug": "videogame-development",
+        "title": "Videospielentwicklung",
+        "company": "Tecnológico de Monterrey",
+        "date": "Aug 2019 - Dez 2019",
+        "category": "projects",
+        "image": "/images/videogame.png",
+        "summary": "Videospielentwicklung in Java.",
+        "details": "Entwicklung eines 2D-Videospiels unter Verwendung objektorientierter Programmierprinzipien in Java. Vertiefung der Fähigkeiten in Gameplay-Design, Benutzeroberfläche, Problemlösung und kollaborativen Entwicklungsworkflows."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subheading": "Stellen Sie gerade ein, haben Sie ein Projekt im Sinn, eine Frage oder möchten Sie einfach nur Hallo sagen? Ich würde mich freuen, von Ihnen zu hören. Füllen Sie das Formular aus oder vernetzen Sie sich mit mir über soziale Medien.",
+    "social_title": "Folge mir",
+    "form": {
+      "name": "Vorname",
+      "surname": "Nachname",
+      "email": "E-Mail-Adresse",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "status": {
+        "sending": "Senden...",
+        "success": "Nachricht erfolgreich gesendet!",
+        "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+      }
+    }
+  },
+  "footer": {
+    "socials": [
+      { "name": "instagram", "url": "https://www.instagram.com/emi_carlin/" },
+      { "name": "youtube", "url": "https://www.youtube.com/channel/UCiBA6v1nqqay-OjLYEHUygw" },
+      { "name": "linkedin", "url": "http://www.linkedin.com/in/eaC99" },
+      { "name": "github", "url": "https://github.com/EmsAguilera" },
+      { "name": "xing", "url": "https://github.com/EmsAguilera" }
+    ],
+    "columns": [
+      {
+        "title": "Über mich",
+        "links": [
+          { "text": "Ausbildung", "url": "/about/#education" },
+          { "text": "Fähigkeiten", "url": "/about/#skills" },
+          { "text": "Hobbys", "url": "/about/#hobbies" },
+          { "text": "Galerie", "url": "/#gallery" }
+        ]
+      },
+      {
+        "title": "Erfahrung",
+        "links": [
+          { "text": "Berufserfahrung", "url": "/#pro-experience" },
+          { "text": "Projekte", "url": "/#projects" },
+          { "text": "Ehrenamt", "url": "/#volunteering" }
+        ]
+      },
+      {
+        "title": "Kontakt",
+        "links": [
+          { "text": "Kontakt", "url": "/contact" },
+          { "text": "Lebenslauf", "url": "/cv.pdf" }
+        ]
+      }
+    ]
+  }
+}
