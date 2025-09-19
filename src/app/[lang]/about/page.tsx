@@ -1,8 +1,6 @@
 import { getDictionary } from '@/dictionaries';
 import { AboutSection } from '@/components/sections/AboutSection';
 import { SkillsSection } from '@/components/sections/SkillsSection';
-import { TimelineSection } from '@/components/sections/TimelineSection';
-import { Button } from '@/components/ui/Button';
 import { EducationSection } from '@/components/sections/EducationSection';
 import { LogoCloud } from '@/components/sections/LogoCloud';
 import { FadeInOnScroll } from '@/components/ui/FadeInOnScroll';

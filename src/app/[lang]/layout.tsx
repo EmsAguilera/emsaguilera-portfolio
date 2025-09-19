@@ -4,7 +4,6 @@ import '../globals.css';
 import { Navbar } from '@/components/ui/Navbar';
 import { Footer } from '@/components/sections/Footer';
 import { getDictionary } from '@/dictionaries';
-import type { Dictionary } from '@/types/content';
 
 const inter = Inter({ subsets: ['latin'] });
 

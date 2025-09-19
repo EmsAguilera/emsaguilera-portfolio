@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import type { Dictionary } from '@/types/content';
 import Image from 'next/image';
 import { Button } from '../ui/Button';

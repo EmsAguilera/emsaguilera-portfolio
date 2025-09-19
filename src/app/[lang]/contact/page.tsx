@@ -1,5 +1,4 @@
 import { getDictionary } from '@/dictionaries';
-import type { Dictionary } from '@/types/content';
 import { ContactForm } from '@/components/sections/ContactForm';
 import { Instagram, Youtube, Linkedin, Github } from 'lucide-react';
 
