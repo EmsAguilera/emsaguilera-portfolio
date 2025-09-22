@@ -5,8 +5,14 @@ import { EducationSection } from '@/components/sections/EducationSection';
 import { LogoCloud } from '@/components/sections/LogoCloud';
 import { FadeInOnScroll } from '@/components/ui/FadeInOnScroll';
 
-export default async function AboutPage({ params: { lang } }) {
-  const dict = await getDictionary(lang);
+type AboutPageProps = {
+  params: {
+    lang: 'en' | 'es' | 'de';
+  };
+};
+
+export default async function AboutPage({ params }: AboutPageProps ) {
+  const dict = await getDictionary(params.lang);
 
   return (
     <div>

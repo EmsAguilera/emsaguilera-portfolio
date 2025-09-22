@@ -4,10 +4,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
-export default async function ExperienceDetailPage({ params: { lang, slug } }) {
-  const dict = await getDictionary(lang);
+type ExperienceDetailPageProps = {
+  params: {
+    lang: 'en' | 'es' | 'de';
+    slug: string;
+  };
+};
 
-  const item = dict.experience.items.find((p) => p.slug === slug);
+export default async function ExperienceDetailPage({ params }: ExperienceDetailPageProps) {
+  const dict = await getDictionary(params.lang);
+
+  const item = dict.experience.items.find((p) => p.slug === params.slug);
 
   if (!item) {
     notFound();
@@ -16,7 +23,7 @@ export default async function ExperienceDetailPage({ params: { lang, slug } }) {
   return (
     <div className="container mx-auto max-w-4xl py-20 md:py-32 px-4">
       <Link
-        href={`/${lang}/experience`}
+        href={`/${params.lang}/experience`}
         className="inline-flex items-center gap-2 text-gray-600 hover:text-primary font-semibold mb-8 transition-colors"
       >
         <ArrowLeft size={18} />

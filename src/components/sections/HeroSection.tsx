@@ -5,9 +5,10 @@ import { ArrowDown } from 'lucide-react';
 
 type HeroSectionProps = {
   content: Dictionary['hero'];
+  lang: 'en' | 'es' | 'de';
 }
 
-export const HeroSection = ({ content }: HeroSectionProps) => {
+export const HeroSection = ({ content, lang }: HeroSectionProps) => {
   return (
     <section 
       id="hero" 
@@ -28,17 +29,17 @@ export const HeroSection = ({ content }: HeroSectionProps) => {
         </p>
 
         <div className="flex justify-center items-center gap-4">
-          <Button href="/contact" variant="primary">
+          <Button href={`/${lang}/contact`} variant="primary">
             {content.button2}
           </Button>
-          <Button href="/experience" variant="secondary">
+          <Button href={`/${lang}/experience`} variant="secondary">
             {content.button}
           </Button>
         </div>
       </div>
 
       <Link
-        href="/#about"
+        href={`/${lang}/#about`}
         className="absolute bottom-10 left-1/2 -translate-x-1/2"
         aria-label="Scroll to next section"
       >

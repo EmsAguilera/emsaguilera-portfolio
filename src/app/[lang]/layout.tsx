@@ -29,7 +29,7 @@ export default async function RootLayout({
   return (
     <html lang={lang}>
       <body className={inter.className}>
-        <Navbar navContent={dict.navbar} />
+        <Navbar navContent={dict.navbar} lang={lang}/>
         <main>{children}</main>
         <Footer content={dict.footer}/>
       </body>

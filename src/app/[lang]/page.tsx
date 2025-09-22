@@ -17,9 +17,9 @@ export default async function HomePage({ params }: HomePageProps) {
 
   return (
     <div>
-      <HeroSection content={dict.hero} />
+      <HeroSection content={dict.hero} lang={lang}/>
       <FadeInOnScroll>
-        <AboutSection content={dict.about} />
+        <AboutSection content={dict.about} lang={lang}/>
       </FadeInOnScroll>
       
       <FadeInOnScroll>

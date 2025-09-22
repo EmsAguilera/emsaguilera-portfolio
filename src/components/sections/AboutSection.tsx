@@ -4,10 +4,11 @@ import { Button } from '../ui/Button';
 
 type AboutSectionProps = {
   content: Dictionary['about'];
+  lang: 'en' | 'es' | 'de';
   showButton?: boolean;
 };
 
-export const AboutSection = ({ content, showButton = true }: AboutSectionProps) => {
+export const AboutSection = ({ content, lang, showButton = true }: AboutSectionProps) => {
   return (
     <section id="about" className="py-20 md:py-32 bg-slate-50">
       <div className="container mx-auto px-4">
@@ -40,7 +41,7 @@ export const AboutSection = ({ content, showButton = true }: AboutSectionProps) 
 
         {showButton && (
         <div className="text-center mt-16">
-          <Button href="/about" variant="primary">
+          <Button href={`/${lang}/about `}variant="primary">
             {content.about_me.button}
           </Button>
         </div>

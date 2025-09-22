@@ -11,16 +11,17 @@ const socialIcons = {
 
 type FooterProps = {
   content: Dictionary['footer'];
+  lang: 'en' | 'es' | 'de';
 };
 
-export const Footer = ({ content }: FooterProps) => {
+export const Footer = ({ content, lang }: FooterProps) => {
   return (
     <footer className="bg-primary text-white">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           
           <div className="flex flex-col gap-4">
-            <Link href="/" className="font-bold text-2xl">
+            <Link href={`/${lang}/`} className="font-bold text-2xl">
               {/* EA Logo Component/Image would go here */}
               EA
             </Link>
@@ -46,7 +47,7 @@ export const Footer = ({ content }: FooterProps) => {
               <ul className="space-y-2">
                 {column.links.map((link) => (
                   <li key={link.text}>
-                    <Link href={link.url} className="text-gray-300 hover:text-white transition-colors">
+                    <Link href={`/${lang}` + link.url} className="text-gray-300 hover:text-white transition-colors">
                       {link.text}
                     </Link>
                   </li>
