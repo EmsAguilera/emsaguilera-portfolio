@@ -11,8 +11,8 @@ type AboutPageProps = {
   };
 };
 
-export default async function AboutPage(props: AboutPageProps ) {
-  const lang = props.params.lang;
+export default async function AboutPage({ params }: AboutPageProps ) {
+  const lang = params.lang;
   const dict = await getDictionary(lang);
 
   return (

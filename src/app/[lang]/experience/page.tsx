@@ -7,8 +7,8 @@ type ExperiencePageProps = {
   };
 };
 
-export default async function ExperiencePage(props: ExperiencePageProps) {
-  const lang = props.params.lang;
+export default async function ExperiencePage({ params }: ExperiencePageProps) {
+  const lang = params.lang;
   const dict = await getDictionary(lang);
   
   return <ExperienceClientPage content={dict.experience} lang={lang} />;

@@ -11,8 +11,8 @@ type ExperienceDetailPageProps = {
   };
 };
 
-export default async function ExperienceDetailPage(props: ExperienceDetailPageProps) {
-  const {lang, slug} = props.params;
+export default async function ExperienceDetailPage({ params }: ExperienceDetailPageProps) {
+  const {lang, slug} = params;
   const dict = await getDictionary(lang);
 
   const item = dict.experience.items.find((p) => p.slug === slug);
