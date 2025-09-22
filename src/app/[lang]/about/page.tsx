@@ -1,17 +1,12 @@
 import { getDictionary } from '@/dictionaries';
+import type { PageProps } from '@/types/pages';
 import { AboutSection } from '@/components/sections/AboutSection';
 import { SkillsSection } from '@/components/sections/SkillsSection';
 import { EducationSection } from '@/components/sections/EducationSection';
 import { LogoCloud } from '@/components/sections/LogoCloud';
 import { FadeInOnScroll } from '@/components/ui/FadeInOnScroll';
 
-type AboutPageProps = {
-  params: {
-    lang: 'en' | 'es' | 'de';
-  };
-};
-
-export default async function AboutPage({ params }: AboutPageProps ) {
+export default async function AboutPage({ params }: PageProps ) {
   const lang = params.lang;
   const dict = await getDictionary(lang);
 

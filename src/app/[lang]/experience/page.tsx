@@ -1,13 +1,8 @@
 import { getDictionary } from '@/dictionaries';
 import { ExperienceClientPage } from '@/components/sections/ExperienceClientPage';
+import { PageProps } from '@/types/pages';
 
-type ExperiencePageProps = {
-  params: {
-    lang: 'en' | 'es' | 'de';
-  };
-};
-
-export default async function ExperiencePage({ params }: ExperiencePageProps) {
+export default async function ExperiencePage({ params }: PageProps) {
   const lang = params.lang;
   const dict = await getDictionary(lang);
   

@@ -3,15 +3,9 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
+import { ExperienceDetailPageProps } from '@/types/pages';
 
-type ExperienceDetailPageProps = {
-  params: {
-    lang: 'en' | 'es' | 'de';
-    slug: string;
-  };
-};
-
-export default async function ExperienceDetailPage({ params }: ExperienceDetailPageProps) {
+export default async function ExperienceDetailPage({ params }: ExperienceDetailPageProps ) {
   const {lang, slug} = params;
   const dict = await getDictionary(lang);
 
