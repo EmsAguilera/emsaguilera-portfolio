@@ -1,13 +1,13 @@
 
-export type PageProps = {
-  params: {
-    lang: 'en' | 'es' | 'de';
-  };
+export interface PageProps {
+  params: Promise<{
+    lang: 'en' | 'de' | 'es';
+  }>;
 };
 
-export type ExperienceDetailPageProps = {
-  params: {
+export interface ExperienceDetailPageProps {
+  params: Promise<{
     lang: 'en' | 'es' | 'de';
     slug: string;
-  };
+  }>;
 };

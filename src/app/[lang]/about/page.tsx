@@ -1,18 +1,18 @@
 import { getDictionary } from '@/dictionaries';
-import type { PageProps } from '@/types/pages';
 import { AboutSection } from '@/components/sections/AboutSection';
 import { SkillsSection } from '@/components/sections/SkillsSection';
 import { EducationSection } from '@/components/sections/EducationSection';
 import { LogoCloud } from '@/components/sections/LogoCloud';
 import { FadeInOnScroll } from '@/components/ui/FadeInOnScroll';
+import { PageProps } from '@/types/pages';
 
-export default async function AboutPage({ params }: PageProps ) {
-  const lang = params.lang;
+export default async function AboutPage({ params }: PageProps) {
+  const { lang } = await params;
   const dict = await getDictionary(lang);
 
   return (
     <div>
-      <AboutSection content={dict.about} showButton={false}/> 
+      <AboutSection content={dict.about} lang={lang} showButton={false}/> 
     
 
       <FadeInOnScroll>
@@ -27,12 +27,8 @@ export default async function AboutPage({ params }: PageProps ) {
         <SkillsSection content={dict.about} />
       </FadeInOnScroll>
 
-      {/* 4. Call to Action section */}
       <section className="py-20 text-center">
-        {/* <h2 className="text-3xl font-bold mb-4">{dict.about.cta_section.text}</h2>
-        <Button href="/cv.pdf" variant="primary">
-          {dict.about.cta_section.button}
-        </Button> */}
+        
       </section>
     </div>
   );

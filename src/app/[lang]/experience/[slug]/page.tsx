@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { ExperienceDetailPageProps } from '@/types/pages';
 
-export default async function ExperienceDetailPage({ params }: ExperienceDetailPageProps ) {
-  const {lang, slug} = params;
+export default async function ExperienceDetailPage({ params }: ExperienceDetailPageProps) {
+  const { lang, slug } = await params;
   const dict = await getDictionary(lang);
 
   const item = dict.experience.items.find((p) => p.slug === slug);

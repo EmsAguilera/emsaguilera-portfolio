@@ -14,16 +14,16 @@ export const metadata: Metadata = {
 
 type RootLayoutProps = {
   children: React.ReactNode;
-  params: {
+  params: Promise<{
     lang: 'en' | 'de' | 'es';
-  };
+  }>;
 };
 
 export default async function RootLayout({
   children,
   params,
 }: Readonly<RootLayoutProps>) {
-  const lang = params.lang; 
+  const { lang } = await params;
   const dict = await getDictionary(lang);
 
   return (
@@ -31,7 +31,7 @@ export default async function RootLayout({
       <body className={inter.className}>
         <Navbar navContent={dict.navbar} lang={lang}/>
         <main>{children}</main>
-        <Footer content={dict.footer}/>
+        <Footer content={dict.footer} lang={lang}/>
       </body>
     </html>
   );

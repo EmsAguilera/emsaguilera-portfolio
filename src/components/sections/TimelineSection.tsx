@@ -1,8 +1,11 @@
 import type { Dictionary, TimelineEvent } from '@/types/content';
 import { Briefcase, GraduationCap, HandHeart, PartyPopper } from 'lucide-react';
 import { FadeInOnScroll } from '../ui/FadeInOnScroll';
+import { JSX } from 'react';
 
-const categoryIcons = {
+type EventCategory = 'education' | 'work' | 'volunteer' | 'milestone';
+
+const categoryIcons: Record<EventCategory, JSX.Element> = {
   education: <GraduationCap />,
   work: <Briefcase />,
   volunteer: <HandHeart />,
@@ -27,7 +30,7 @@ const TimelineItem = ({ event, index }: { event: TimelineEvent, index: number })
 
         <div className="flex flex-col items-center h-full">
           <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white">
-            {categoryIcons[event.category] || <Briefcase />}
+            {categoryIcons[event.category as EventCategory] || <Briefcase />}
           </div>
           <div className="w-1 bg-gray-200 h-full"></div>
         </div>

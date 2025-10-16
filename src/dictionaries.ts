@@ -1,5 +1,5 @@
 import 'server-only';
-import type { Dictionary } from '@/types/content'; // Import our central type
+import type { Dictionary } from '@/types/content'; 
 
 const dictionaries = {
   en: () => import('@/content/en.json').then((module) => module.default),

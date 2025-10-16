@@ -6,13 +6,13 @@ import { TimelineSection } from '@/components/sections/TimelineSection';
 import { FadeInOnScroll } from '@/components/ui/FadeInOnScroll';
 
 type HomePageProps = {
-  params: {
+  params: Promise<{
     lang: 'en' | 'de' | 'es';
-  };
+  }>;
 };
 
 export default async function HomePage({ params }: HomePageProps) {
-  const lang = params.lang;
+  const { lang } = await params;
   const dict = await getDictionary(lang);
 
   return (

@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import { Instagram, Youtube, Linkedin, Github } from 'lucide-react';
 import type { Dictionary } from '@/types/content';
+import { JSX } from 'react';
 
-const socialIcons = {
+type SocialName = 'instagram' | 'youtube' | 'linkedin' | 'github';
+
+const socialIcons: Record<SocialName, JSX.Element> = {
   instagram: <Instagram size={24} />,
   youtube: <Youtube size={24} />,
   linkedin: <Linkedin size={24} />,
@@ -35,7 +38,7 @@ export const Footer = ({ content, lang }: FooterProps) => {
                   className="hover:opacity-75 transition-opacity"
                   aria-label={social.name}
                 >
-                  {socialIcons[social.name]}
+                  {socialIcons[social.name as SocialName]}
                 </a>
               ))}
             </div>

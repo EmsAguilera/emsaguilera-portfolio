@@ -1,6 +1,7 @@
 import { getDictionary } from '@/dictionaries';
 import { ContactForm } from '@/components/sections/ContactForm';
 import { Instagram, Youtube, Linkedin, Github } from 'lucide-react';
+import { PageProps } from '@/types/pages';
 
 const socials = [
   { name: "instagram", url: "https://www.instagram.com/", icon: <Instagram /> },
@@ -9,13 +10,8 @@ const socials = [
   { name: "github", url: "https://github.com/", icon: <Github /> },
 ];
 
-type ContactPageProps = {
-  params: {
-    lang: 'en' | 'de' | 'es';
-  };
-};
-
-export default async function ContactPage({ params: { lang } }: ContactPageProps) {
+export default async function ContactPage({ params }: PageProps) {
+  const { lang } = await params;
   const dict = await getDictionary(lang);
 
   return (
