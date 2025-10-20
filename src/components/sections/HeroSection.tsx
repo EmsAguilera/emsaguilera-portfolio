@@ -18,21 +18,20 @@ export const HeroSection = ({ content, lang }: HeroSectionProps) => {
 
       <div className="absolute inset-0 bg-black/30"></div>
 
-      <div className="relative text-center p-12 md:p-16 bg-gray-500/10 rounded-2xl shadow-xl backdrop-blur-sm border border-white/10">
+      <div className="relative text-center p-6 md:p-12 bg-gray-500/10 rounded-2xl shadow-xl backdrop-blur-sm border border-white/10">
         
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
+        <h1 className="text-4xl md:text-7xl font-bold text-white mb-4">
           {content.greeting}
         </h1>
-
         <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl">
           {content.subtitle}
         </p>
 
-        <div className="flex justify-center items-center gap-4">
-          <Button href={`/${lang}/contact`} variant="primary">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <Button href={`/${lang}/experience`} variant="primary">
             {content.button2}
           </Button>
-          <Button href={`/${lang}/experience`} variant="secondary">
+          <Button href={`/${lang}/contact`} variant="secondary">
             {content.button}
           </Button>
         </div>

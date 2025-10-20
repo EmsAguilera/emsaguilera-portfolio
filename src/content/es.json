@@ -77,11 +77,11 @@
         },
         {
           "institution": "CISCO",
-          "degree": "---",
+          "degree": "Cisco® CCNA Routing and Switching: Introduction to Networks",
           "date": "2021",
           "description": "Participé en talleres sobre características avanzadas de Next.js, incluyendo componentes de servidor y optimización del rendimiento.",
           "certificates": [
-            { "text": "Ver Certificado", "url": "/certs/nextjs_conf.pdf" }
+            { "text": "Ver Certificado", "url": "/certs/CiscoCCNA.pdf" }
           ]
         },
         {
@@ -365,9 +365,9 @@
       {
         "title": "Experiencia",
         "links": [
-          { "text": "Experiencia Profesional", "url": "/#pro-experience" },
-          { "text": "Proyectos", "url": "/#projects" },
-          { "text": "Voluntariado", "url": "/#volunteering" }
+          { "text": "Experiencia Profesional", "url": "/experience/#pro-experience" },
+          { "text": "Proyectos", "url": "/experience/#projects" },
+          { "text": "Voluntariado", "url": "/experience/#volunteering" }
         ]
       },
       {

@@ -27,7 +27,7 @@ export default async function RootLayout({
   const dict = await getDictionary(lang);
 
   return (
-    <html lang={lang}>
+    <html lang={lang} className="light">
       <body className={inter.className}>
         <Navbar navContent={dict.navbar} lang={lang}/>
         <main>{children}</main>

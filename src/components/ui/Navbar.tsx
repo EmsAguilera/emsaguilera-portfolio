@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import type { Dictionary } from '@/types/content';
+import { MobileMenu } from './MobileMenu';
 
 type NavbarProps = {
   navContent: Dictionary['navbar'];
@@ -23,8 +24,9 @@ export const Navbar = ({ navContent, lang }: NavbarProps) => {
           <Link href={`/${lang}/contact`} className="hover:text-gray-300 transition-colors">{navContent.contact}</Link>
         </div>
 
-        <div>
+        <div className="flex items-center gap-4">
           <LanguageSwitcher />
+          <MobileMenu navContent={navContent} lang={lang} />
         </div>
       </div>
     </nav>

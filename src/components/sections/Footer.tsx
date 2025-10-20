@@ -26,7 +26,7 @@ export const Footer = ({ content, lang }: FooterProps) => {
           <div className="flex flex-col gap-4">
             <Link href={`/${lang}/`} className="font-bold text-2xl">
               {/* EA Logo Component/Image would go here */}
-              EA
+              EAC
             </Link>
             <div className="flex gap-4">
               {content.socials.map((social) => (
