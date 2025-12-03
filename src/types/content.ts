@@ -35,6 +35,18 @@ export type Dictionary = {
         }[];
       }[];
     };
+    hobbies_section: {
+      title: string;
+      intro: string;
+      hobbies: {
+          title: string;
+          image: {
+            src: string;
+            alt: string;
+          };
+          description: string;
+      }[],
+    };
     logo_cloud: {
       title: string;
       logos: {

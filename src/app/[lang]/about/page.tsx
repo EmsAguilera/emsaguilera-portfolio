@@ -5,6 +5,7 @@ import { EducationSection } from '@/components/sections/EducationSection';
 import { LogoCloud } from '@/components/sections/LogoCloud';
 import { FadeInOnScroll } from '@/components/ui/FadeInOnScroll';
 import { PageProps } from '@/types/pages';
+import { HobbiesSection } from '@/components/sections/HobbiesSection';
 
 export default async function AboutPage({ params }: PageProps) {
   const { lang } = await params;
@@ -25,6 +26,10 @@ export default async function AboutPage({ params }: PageProps) {
       
       <FadeInOnScroll>
         <SkillsSection content={dict.about} />
+      </FadeInOnScroll>
+
+      <FadeInOnScroll>
+        <HobbiesSection content={dict.about.hobbies_section} />
       </FadeInOnScroll>
 
       <section className="py-20 text-center">

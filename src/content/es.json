@@ -96,6 +96,27 @@
         }
       ]
     },
+    "hobbies_section": {
+      "title": "Beyond the Code: My Hobbies",
+      "intro": "When I'm not building software, I'm recharging and finding inspiration through these passions.",
+      "hobbies": [
+        {
+          "title": "Photography",
+          "image": { "src": "/images/hobbies/photography.jpg", "alt": "Emilio holding a camera" },
+          "description": "Photography pushes me to observe the world with a designer's eye. It's taught me about composition, lighting, and perspective—skills that directly translate to creating more visually appealing and user-friendly front-end interfaces. It's my way of capturing fleeting moments and finding beauty in the everyday."
+        },
+        {
+          "title": "Hiking & Nature",
+          "image": { "src": "/images/hobbies/hiking.jpg", "alt": "A scenic mountain view" },
+          "description": "Disconnecting and getting out into nature is my ultimate reset button. The physical challenge of a long hike clears my mind, reduces stress, and often gives me the quiet space needed to solve complex coding problems that were stuck in my head. It reminds me of the importance of balance."
+        },
+        {
+          "title": "Tennis",
+          "image": { "src": "/images/hobbies/cooking.jpg", "alt": "A delicious meal" },
+          "description": "Cooking is another form of creative problem-solving, but with immediate and delicious rewards! I love experimenting with ingredients and flavors. It's a mindful activity that requires focus and patience, and sharing a home-cooked meal with friends and family is one of my favorite ways to connect."
+        }
+      ]
+    },
     "logo_cloud": {
       "title": "Asociado con",
       "logos": [
@@ -121,7 +142,7 @@
         },
         {
           "category": "Backend",
-          "list": ["Node.js", ".NET", "SQL Databases"]
+          "list": ["Node.js", ".NET", "Spring Boot", "SQL Databases"]
         },
         {
           "category": "Herramientas y Métodos",
