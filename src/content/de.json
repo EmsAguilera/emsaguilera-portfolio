@@ -96,10 +96,10 @@
         }
       ]
     },
-    "hobbies": {
+    "hobbies_section": {
       "title": "Beyond the Code: My Hobbies",
       "intro": "When I'm not building software, I'm recharging and finding inspiration through these passions.",
-      "hobbies_section": [
+      "hobbies": [
         {
           "title": "Photography",
           "image": { "src": "/images/hobbies/photography.jpg", "alt": "Emilio holding a camera" },
