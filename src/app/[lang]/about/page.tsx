@@ -6,6 +6,8 @@ import { LogoCloud } from '@/components/sections/LogoCloud';
 import { FadeInOnScroll } from '@/components/ui/FadeInOnScroll';
 import { PageProps } from '@/types/pages';
 import { HobbiesSection } from '@/components/sections/HobbiesSection';
+import { Button } from '@/components/ui/Button';
+import { CtaSection } from '@/components/sections/CtaSection';
 
 export default async function AboutPage({ params }: PageProps) {
   const { lang } = await params;
@@ -32,9 +34,7 @@ export default async function AboutPage({ params }: PageProps) {
         <HobbiesSection content={dict.about.hobbies_section} />
       </FadeInOnScroll>
 
-      <section className="py-20 text-center">
-        
-      </section>
+      <CtaSection content={dict.cta_global} lang={lang} />
     </div>
   );
 }

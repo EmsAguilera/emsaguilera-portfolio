@@ -4,6 +4,7 @@ import { AboutSection } from '@/components/sections/AboutSection';
 import { GallerySection } from '@/components/sections/GallerySection';
 import { TimelineSection } from '@/components/sections/TimelineSection';
 import { FadeInOnScroll } from '@/components/ui/FadeInOnScroll';
+import { CtaSection } from '@/components/sections/CtaSection';
 
 type HomePageProps = {
   params: Promise<{
@@ -29,6 +30,8 @@ export default async function HomePage({ params }: HomePageProps) {
       <FadeInOnScroll>
         <GallerySection content={dict.gallery} />
       </FadeInOnScroll>
+      
+      <CtaSection content={dict.cta_global} lang={lang} />
     </div>
   );
 }

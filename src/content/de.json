@@ -101,19 +101,29 @@
       "intro": "When I'm not building software, I'm recharging and finding inspiration through these passions.",
       "hobbies": [
         {
-          "title": "Photography",
-          "image": { "src": "/images/hobbies/photography.jpg", "alt": "Emilio holding a camera" },
-          "description": "Photography pushes me to observe the world with a designer's eye. It's taught me about composition, lighting, and perspective—skills that directly translate to creating more visually appealing and user-friendly front-end interfaces. It's my way of capturing fleeting moments and finding beauty in the everyday."
+          "title": "Fotografie",
+          "image": { "src": "/images/hobbies/photography.jpg", "alt": "Emilio mit einer Kamera" },
+          "description": "Die Fotografie treibt mich an, die Welt mit dem Auge eines Designers zu betrachten. Sie hat mich Komposition, Beleuchtung und Perspektive gelehrt – Fähigkeiten, die sich direkt auf die Erstellung visuell ansprechenderer und benutzerfreundlicherer Front-End-Interfaces übertragen lassen. Es ist meine Art, flüchtige Momente festzuhalten und Schönheit im Alltäglichen zu finden."
         },
         {
-          "title": "Hiking & Nature",
-          "image": { "src": "/images/hobbies/hiking.jpg", "alt": "A scenic mountain view" },
-          "description": "Disconnecting and getting out into nature is my ultimate reset button. The physical challenge of a long hike clears my mind, reduces stress, and often gives me the quiet space needed to solve complex coding problems that were stuck in my head. It reminds me of the importance of balance."
+          "title": "Wandern",
+          "image": { "src": "/images/hobbies/hiking.jpg", "alt": "Emilio beim Wandern" },
+          "description": "Ich habe meine Leidenschaft für das Wandern in Deutschland entdeckt, inspiriert durch den tiefen Respekt der lokalen Kultur vor der Natur. Jenseits der körperlichen Herausforderung klärt das Wandern meinen Geist. Es lehrt Resilienz – körperliche Grenzen zu überwinden, um den Gipfel zu erreichen. Es erinnert mich daran, dass mit Ausdauer und Balance jedes Ziel erreichbar ist."
         },
         {
           "title": "Tennis",
-          "image": { "src": "/images/hobbies/cooking.jpg", "alt": "A delicious meal" },
-          "description": "Cooking is another form of creative problem-solving, but with immediate and delicious rewards! I love experimenting with ingredients and flavors. It's a mindful activity that requires focus and patience, and sharing a home-cooked meal with friends and family is one of my favorite ways to connect."
+          "image": { "src": "/images/hobbies/tennis.jpg", "alt": "Tennis spielen" },
+          "description": "Ich spiele Tennis seit meiner Kindheit, habe aber erst kürzlich den Wert erkannt, der weit über die Fitness hinausgeht. Es bietet ein essentielles Stressmanagement und ein Gefühl der Ruhe. Auf dem Platz trainiere ich sekundenschnelle Entscheidungsfindung, Problemlösung und Disziplin – Fähigkeiten, die mich auch unter Druck fokussiert und belastbar halten."
+        },
+        {
+          "title": "Reisen",
+          "image": { "src": "/images/hobbies/traveling.jpg", "alt": "Reisen in Berlin" },
+          "description": "Das Reisen hat mir die Schönheit der Welt offenbart und meine Unabhängigkeit gestärkt. Das Erkunden von Europa, Marokko und Mexiko hat mein Selbstvertrauen und meine Offenheit für Neues aufgebaut. Jede Reise ist eine Lektion in Geschichte, Kultur und Tradition, die mein Weltbild ständig erweitert."
+        },
+        {
+          "title": "Interkulturelle Events",
+          "image": { "src": "/images/hobbies/intercultural.jpg", "alt": "Interkulturelles Event mit AIESEC" },
+          "description": "Das Leben in Deutschland hat mir die Tür zu einer globalen Gemeinschaft geöffnet. Die Teilnahme an interkulturellen Veranstaltungen fördert Empathie, Inklusion und tiefes kulturelles Verständnis. Ich genieße den Ideenaustausch – ich lerne von anderen und teile gleichzeitig mein eigenes Erbe. Es bestärkt den Glauben, dass wir trotz unserer Unterschiede eine gemeinsame Menschlichkeit teilen."
         }
       ]
     },
@@ -364,6 +374,12 @@
         "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
       }
     }
+  },
+  "cta_global": {
+    "title": "Bereit, Ideen zum Leben zu erwecken?",
+    "body": "Ob Sie ein konkretes Projekt im Sinn haben oder einfach nur eine Zusammenarbeit erkunden möchten, ich würde mich freuen, von Ihnen zu hören.",
+    "button_contact": "Lass uns sprechen",
+    "button_cv": "Lebenslauf ansehen"
   },
   "footer": {
     "socials": [

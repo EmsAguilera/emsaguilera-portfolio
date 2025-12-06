@@ -98,6 +98,12 @@ export type Dictionary = {
       }
     }
   };
+  cta_global: {
+    title: string;
+    body: string;
+    button_contact: string;
+    button_cv: string;
+  };
   footer: {
     socials: { name: string; url: string }[];
     columns: {
@@ -114,6 +120,12 @@ export type TimelineEvent = {
   category: string;
 };
 
+export type ExperienceLink = {
+  text: string;
+  url: string;
+  variant: 'primary' | 'secondary'; // To style them differently
+};
+
 export type ExperienceItem = {
   slug: string;
   title: string;
@@ -123,4 +135,6 @@ export type ExperienceItem = {
   image: string;
   summary: string;
   details: string; 
+  links?: ExperienceLink[]; 
+  gallery?: { src: string; alt: string }[];
 };

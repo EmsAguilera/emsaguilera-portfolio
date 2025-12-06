@@ -101,19 +101,29 @@
       "intro": "When I'm not building software, I'm recharging and finding inspiration through these passions.",
       "hobbies": [
         {
-          "title": "Photography",
-          "image": { "src": "/images/hobbies/photography.jpg", "alt": "Emilio holding a camera" },
-          "description": "Photography pushes me to observe the world with a designer's eye. It's taught me about composition, lighting, and perspective—skills that directly translate to creating more visually appealing and user-friendly front-end interfaces. It's my way of capturing fleeting moments and finding beauty in the everyday."
+          "title": "Fotografía",
+          "image": { "src": "/images/hobbies/photography.jpg", "alt": "Emilio sosteniendo una cámara" },
+          "description": "La fotografía me impulsa a observar el mundo con ojo de diseñador. Me ha enseñado sobre composición, iluminación y perspectiva; habilidades que se traducen directamente en la creación de interfaces front-end más atractivas y fáciles de usar. Es mi forma de capturar momentos fugaces y encontrar belleza en lo cotidiano."
         },
         {
-          "title": "Hiking & Nature",
-          "image": { "src": "/images/hobbies/hiking.jpg", "alt": "A scenic mountain view" },
-          "description": "Disconnecting and getting out into nature is my ultimate reset button. The physical challenge of a long hike clears my mind, reduces stress, and often gives me the quiet space needed to solve complex coding problems that were stuck in my head. It reminds me of the importance of balance."
+          "title": "Senderismo",
+          "image": { "src": "/images/hobbies/hiking.jpg", "alt": "Emilio haciendo senderismo" },
+          "description": "Descubrí mi pasión por el senderismo en Alemania, inspirado por el profundo respeto de su cultura hacia la naturaleza. Más allá del desafío físico, el senderismo aclara mi mente. Me enseña resiliencia: superar los límites físicos para llegar a la cima. Me recuerda que, con persistencia y equilibrio, cualquier meta es alcanzable."
         },
         {
-          "title": "Tennis",
-          "image": { "src": "/images/hobbies/cooking.jpg", "alt": "A delicious meal" },
-          "description": "Cooking is another form of creative problem-solving, but with immediate and delicious rewards! I love experimenting with ingredients and flavors. It's a mindful activity that requires focus and patience, and sharing a home-cooked meal with friends and family is one of my favorite ways to connect."
+          "title": "Tenis",
+          "image": { "src": "/images/hobbies/tennis.jpg", "alt": "Practicando Tenis" },
+          "description": "Juego al tenis desde niño, pero recientemente comprendí que su valor va más allá del ejercicio. Me proporciona una gestión esencial del estrés y una sensación de paz. En la cancha, perfecciono la toma de decisiones en segundos, la resolución de problemas y la disciplina; habilidades que me mantienen enfocado y resiliente bajo presión."
+        },
+        {
+          "title": "Viajar",
+          "image": { "src": "/images/hobbies/traveling.jpg", "alt": "Viajando en Berlín" },
+          "description": "Viajar me ha revelado la belleza del mundo y ha desbloqueado mi independencia. Explorar Europa, Marruecos y México ha fortalecido mi confianza y mi apertura para aprender. Cada viaje es una lección de historia, cultura y tradición que expande constantemente mi visión del mundo."
+        },
+        {
+          "title": "Eventos Interculturales",
+          "image": { "src": "/images/hobbies/intercultural.jpg", "alt": "Evento intercultural con AIESEC" },
+          "description": "Vivir en Alemania me abrió las puertas a una comunidad global. Participar en eventos interculturales fomenta la empatía, la inclusión y un profundo entendimiento cultural. Disfruto del intercambio de ideas: aprendiendo de otros mientras comparto mi propia herencia. Esto refuerza la creencia de que, a pesar de nuestras diferencias, compartimos una humanidad común."
         }
       ]
     },
@@ -364,6 +374,12 @@
         "error": "Algo salió mal. Por favor, inténtalo de nuevo."
       }
     }
+  },
+  "cta_global": {
+    "title": "¿Listo para dar vida a tus ideas?",
+    "body": "Ya sea que tengas un proyecto en mente o simplemente quieras explorar una colaboración, me encantaría escucharte.",
+    "button_contact": "Hablemos",
+    "button_cv": "Ver mi Currículum"
   },
   "footer": {
     "socials": [

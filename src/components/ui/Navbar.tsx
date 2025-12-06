@@ -20,7 +20,6 @@ export const Navbar = ({ navContent, lang }: NavbarProps) => {
         <div className="hidden md:flex items-center gap-8">
           <Link href={`/${lang}/about`} className="hover:text-gray-300 transition-colors">{navContent.about}</Link>
           <Link href={`/${lang}/experience`} className="hover:text-gray-300 transition-colors">{navContent.experience}</Link>
-          <Link href={`/${lang}/#gallery`} className="hover:text-gray-300 transition-colors">Gallery</Link>
           <Link href={`/${lang}/contact`} className="hover:text-gray-300 transition-colors">{navContent.contact}</Link>
         </div>
 

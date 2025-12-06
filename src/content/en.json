@@ -103,27 +103,27 @@
         {
           "title": "Photography",
           "image": { "src": "/images/hobbies/photography.jpg", "alt": "Emilio holding a camera" },
-          "description": "Photography pushes me to observe the world with a designer's eye. It's taught me about composition, lighting, and perspective—skills that directly translate to creating more visually appealing and user-friendly front-end interfaces. It's my way of capturing fleeting moments and finding beauty in the everyday."
+          "description": "Photography pushes me to observe the world with a designer's eye. It has taught me about composition, lighting, and perspective—skills that directly translate to creating visually appealing and user-friendly front-end interfaces. It is my way of capturing fleeting moments and finding beauty in the everyday."
         },
         {
           "title": "Hiking",
-          "image": { "src": "/images/hobbies/hiking.jpg", "alt": "A scenic mountain view" },
-          "description": "Disconnecting and getting out into nature is my ultimate reset button. The physical challenge of a long hike clears my mind, reduces stress, and often gives me the quiet space needed to solve complex coding problems that were stuck in my head. It reminds me of the importance of balance."
+          "image": { "src": "/images/hobbies/hiking.jpg", "alt": "Emilio hiking" },
+          "description": "I discovered my passion for hiking in Germany, inspired by the local culture's deep respect for nature. Beyond the physical challenge, hiking clarifies my mind. It teaches resilience—pushing past physical limits to reach the summit. It reminds me that with persistence and balance, any goal is attainable."
         },
         {
           "title": "Tennis",
-          "image": { "src": "/images/hobbies/tennis.jpg", "alt": "Tennis" },
-          "description": "Cooking is another form of creative problem-solving, but with immediate and delicious rewards! I love experimenting with ingredients and flavors. It's a mindful activity that requires focus and patience, and sharing a home-cooked meal with friends and family is one of my favorite ways to connect."
+          "image": { "src": "/images/hobbies/tennis.jpg", "alt": "Practicing Tennis" },
+          "description": "I have played tennis since childhood, but recently realized its value goes far beyond fitness. It provides essential stress management and a sense of peace. On the court, I hone split-second decision-making, problem-solving, and discipline—skills that keep me focused and resilient under pressure."
         },
         {
           "title": "Traveling",
-          "image": { "src": "/images/hobbies/traveling.jpg", "alt": "A delicious meal" },
-          "description": "Cooking is another form of creative problem-solving, but with immediate and delicious rewards! I love experimenting with ingredients and flavors. It's a mindful activity that requires focus and patience, and sharing a home-cooked meal with friends and family is one of my favorite ways to connect."
+          "image": { "src": "/images/hobbies/traveling.jpg", "alt": "Traveling in Berlin" },
+          "description": "Traveling has revealed the world's beauty and unlocked my independence. Exploring Europe, Morocco, and Mexico has built my confidence and openness to learning. Each journey is a lesson in history, culture, and tradition, constantly expanding my worldview."
         },
         {
-          "title": "Intercultural events",
-          "image": { "src": "/images/hobbies/intercultural.jpg", "alt": "A delicious meal" },
-          "description": "Cooking is another form of creative problem-solving, but with immediate and delicious rewards! I love experimenting with ingredients and flavors. It's a mindful activity that requires focus and patience, and sharing a home-cooked meal with friends and family is one of my favorite ways to connect."
+          "title": "Intercultural Events",
+          "image": { "src": "/images/hobbies/intercultural.jpg", "alt": "Intercultural event with AIESEC" },
+          "description": "Living in Germany opened the door to a global community. Participating in intercultural events fosters empathy, inclusivity, and deep cultural understanding. I thrive on the exchange of ideas—learning from others while sharing my own heritage. It reinforces the belief that despite our differences, we share a common humanity."
         }
       ]
     },
@@ -228,14 +228,14 @@
     "title": "Gallery",
     "images": [
       { "src": "/images/1.JPG", "alt": "Juarez Theater in Guanajuato Mexico" },
-      { "src": "/images/2.jpg", "alt": "Christmas market in Berlin Germany" },
+      { "src": "/images/2.JPG", "alt": "Christmas market in Berlin Germany" },
       { "src": "/images/3.jpg", "alt": "Juarez Theater in Guanajuato Mexico" },
-      { "src": "/images/4.jpg", "alt": "Popocatepetl view from Cholula Puebla" },
+      { "src": "/images/4.JPG", "alt": "Popocatepetl view from Cholula Puebla" },
       { "src": "/images/5.jpg", "alt": "Christmas market in Berlin Germany" },
       { "src": "/images/6.jpg", "alt": "Popocatepetl view from Cholula Puebla" },
-      { "src": "/images/7.jpg", "alt": "Popocatepetl view from Cholula Puebla" },
+      { "src": "/images/7.JPG", "alt": "Popocatepetl view from Cholula Puebla" },
       { "src": "/images/8.jpg", "alt": "Cempasuchil flower" },
-      { "src": "/images/9.jpg", "alt": "Popocatepetl view from Cholula Puebla" },
+      { "src": "/images/9.JPG", "alt": "Popocatepetl view from Cholula Puebla" },
       { "src": "/images/10.jpg", "alt": "German Shepherd dog" }
     ]
   },
@@ -247,6 +247,33 @@
     "back_button": "Back to all experiences",
     "items": [
       {
+        "slug": "wordpress-webmaster",
+        "title": "Webmaster",
+        "company": "GUUD Consulting",
+        "date": "Sep 2025 - present",
+        "category": "professional",
+        "image": "/images/guud.png",
+        "summary": "Technical maintenance of WordPress websites.",
+        "details": "Technical maintenance of WordPress websites, plugin updates, and backups.\nDevelopment of new websites and server migration of WordPress sites.\nExecution of functional tests and reporting.",
+        "gallery": [
+          { "src": "/images/curso.jpg", "alt": "The script running in terminal" },
+          { "src": "/images/guud.png", "alt": "Example of generated PDF" }
+        ]
+      },
+      {
+        "slug": "parttime-job",
+        "title": "Waiter/Kitchen Assistant",
+        "company": "Mexiko GmbH und Co Kg",
+        "date": "Aug 2025 - present",
+        "category": "professional",
+        "image": "/images/lamexicana.png",
+        "summary": "Waiter and Kitschen assistant in restaurant.",
+        "details": "Effective communication with the kitchen to relay orders.\nImprovement of German language skills through direct customer contact.\nInventory control and stock management.",
+        "links": [
+          { "text": "About", "url": "https://www.lamexicana-karlsruhe.de/", "variant": "primary" }
+        ]
+      },
+      {
         "slug": "bewerbungen-projekt",
         "title": "Automated Job Application System",
         "company": "Personal",
@@ -254,7 +281,15 @@
         "category": "projects",
         "image": "/images/bewerbungen.jpg",
         "summary": "Powerful Python-based automation system.",
-        "details": "This is a powerful Python-based automation system designed to streamline the job application process. It intelligently reads job data from a spreadsheet and uses a generative AI to tailor specific sections of your bilingual LaTeX CVs and Cover Letters for each application. The script automatically generates polished, ATS-friendly PDFs, saving countless hours while producing high-quality, personalized documents for every job you apply for."
+        "details": "This is a powerful Python-based automation system designed to streamline the job application process. It intelligently reads job data from a spreadsheet and uses a generative AI to tailor specific sections of your bilingual LaTeX CVs and Cover Letters for each application. The script automatically generates polished, ATS-friendly PDFs, saving countless hours while producing high-quality, personalized documents for every job you apply for.",
+        "links": [
+          { "text": "View Source Code", "url": "https://github.com/EmsAguilera/your-repo", "variant": "primary" },
+          { "text": "Download Documentation", "url": "/docs/automation-docs.pdf", "variant": "secondary" }
+        ],
+        "gallery": [
+          { "src": "/images/curso.jpg", "alt": "The script running in terminal" },
+          { "src": "/images/guud.png", "alt": "Example of generated PDF" }
+        ]
       },
       {
         "slug": "consultant-aiesec",
@@ -272,9 +307,16 @@
         "company": "octasys GmbH",
         "date": "Aug 2024 - Oct 2024",
         "category": "professional",
-        "image": "/images/octasys.jpg",
+        "image": "/images/logos/octasys_logo.jpg",
         "summary": "Streamlined deployment and expanded platform scalability.",
-        "details": "In this role, I was responsible for create and maintaine Azure DevOps CI/CD pipelines and necessary services (e.g., Docker Registry), software architecture updates, and ensured a test environment for testers increasing release frequency by 25%. Onboarded 3 new employees to scale the platform from single‑state to multi‑agency use, as well as automating audits, reports, and compliance monitoring for faster and improved data accuracy by 95%."
+        "details": "In this role, I was responsible for create and maintaine Azure DevOps CI/CD pipelines and necessary services (e.g., Docker Registry), software architecture updates, and ensured a test environment for testers increasing release frequency by 25%. Onboarded 3 new employees to scale the platform from single‑state to multi‑agency use, as well as automating audits, reports, and compliance monitoring for faster and improved data accuracy by 95%.",
+        "links": [
+          { "text": "Certificate", "url": "/certs/Arbeitszeugnis.pdf", "variant": "primary" },
+          { "text": "About", "url": "https://octasys.de/", "variant": "secondary" }
+        ],
+        "gallery": [
+          { "src": "/images/octasys.jpg", "alt": "The script running in terminal" }
+        ]
       },
       {
         "slug": "vp-aiesec",
@@ -294,7 +336,14 @@
         "category": "professional",
         "image": "/images/logos/octasys_logo.jpg",
         "summary": "Enhanced the client’s accessibility monitoring platform.",
-        "details": "Designed and implemented new features in Vue.js for the frontend, .NET C# for the backend, and SQL Server for the databases, migrated legacy workflows to a full‑stack automated system, increasing operational efficiency by 50%. Assisted with software issues and conducted code reviews within an international team to resolve critical bugs, reducing the company’s workload by 90%."
+        "details": "Designed and implemented new features in Vue.js for the frontend, .NET C# for the backend, and SQL Server for the databases, migrated legacy workflows to a full‑stack automated system, increasing operational efficiency by 50%. Assisted with software issues and conducted code reviews within an international team to resolve critical bugs, reducing the company’s workload by 90%.",
+        "links": [
+          { "text": "Certificate", "url": "/certs/Arbeitszeugnis.pdf", "variant": "primary" },
+          { "text": "About", "url": "https://octasys.de/", "variant": "secondary" }
+        ],
+        "gallery": [
+          { "src": "/images/octasys.jpg", "alt": "The script running in terminal" }
+        ]
       },
       {
         "slug": "developer-guud",
@@ -355,6 +404,24 @@
         "image": "/images/videogame.png",
         "summary": "Java videogame development.",
         "details": "Developed a 2D video game using object‑oriented programming principles in Java. Strengthened skills in gameplay design, UI, problem‑solving, and collaborative development workflows."
+      },
+      {
+        "slug": "curso-verano",
+        "title": "Children's camp",
+        "company": "Club Campestre de Irapuato",
+        "date": "Summers 2015-2023",
+        "category": "professional",
+        "image": "/images/curso.jpg",
+        "summary": "Powerful Python-based automation system.",
+        "details": "This is a powerful Python-based automation system designed to streamline the job application process. It intelligently reads job data from a spreadsheet and uses a generative AI to tailor specific sections of your bilingual LaTeX CVs and Cover Letters for each application. The script automatically generates polished, ATS-friendly PDFs, saving countless hours while producing high-quality, personalized documents for every job you apply for.",
+        "links": [
+          { "text": "View Source Code", "url": "https://github.com/EmsAguilera/your-repo", "variant": "primary" },
+          { "text": "Download Documentation", "url": "/docs/automation-docs.pdf", "variant": "secondary" }
+        ],
+        "gallery": [
+          { "src": "/images/curso.jpg", "alt": "The script running in terminal" },
+          { "src": "/images/guud.png", "alt": "Example of generated PDF" }
+        ]
       }
     ]
   },
@@ -374,6 +441,12 @@
         "error": "Something went wrong. Please try again."
       }
     }
+  },
+  "cta_global": {
+    "title": "Ready to bring ideas to life?",
+    "body": "Whether you have a specific project in mind or just want to explore potential collaboration, I'd love to hear from you.",
+    "button_contact": "Let's Talk",
+    "button_cv": "View my Resume"
   },
   "footer": {
     "socials": [
