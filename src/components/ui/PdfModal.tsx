@@ -1,7 +1,7 @@
 // src/components/ui/PdfModal.tsx
 'use client';
 
-import { X, ExternalLink } from 'lucide-react';
+import { X } from 'lucide-react';
 import { useEffect } from 'react';
 
 type PdfModalProps = {

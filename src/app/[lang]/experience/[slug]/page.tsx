@@ -4,9 +4,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
-import { Button } from '@/components/ui/Button'; // Import your Button component
 import { ExperienceLinks } from '@/components/sections/ExperienceLinks';
-import { CtaSection } from '@/components/sections/CtaSection';
 
 // Use the safe typing we established
 export default async function ExperienceDetailPage({ params }: { params: { lang: 'en' | 'es' | 'de', slug: string } }) {

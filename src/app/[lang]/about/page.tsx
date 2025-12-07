@@ -6,7 +6,6 @@ import { LogoCloud } from '@/components/sections/LogoCloud';
 import { FadeInOnScroll } from '@/components/ui/FadeInOnScroll';
 import { PageProps } from '@/types/pages';
 import { HobbiesSection } from '@/components/sections/HobbiesSection';
-import { Button } from '@/components/ui/Button';
 import { CtaSection } from '@/components/sections/CtaSection';
 
 export default async function AboutPage({ params }: PageProps) {
