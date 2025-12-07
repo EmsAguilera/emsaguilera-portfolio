@@ -5,13 +5,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { ExperienceLinks } from '@/components/sections/ExperienceLinks';
+import { ExperienceDetailPageProps } from '@/types/pages';
 
-// Use the safe typing we established
-export default async function ExperienceDetailPage({ params }: { params: { lang: 'en' | 'es' | 'de', slug: string } }) {
-  const { lang, slug } = params;
+export default async function ExperienceDetailPage({ params }: ExperienceDetailPageProps) {
+  const { lang, slug } = await params;
   const dict = await getDictionary(lang);
-  
-  // Find the item
+
   const item = dict.experience.items.find((p) => p.slug === slug);
 
   if (!item) {
